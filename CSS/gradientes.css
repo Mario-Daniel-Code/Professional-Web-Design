@@ -1,0 +1,12 @@
+/*gradientes son combinacion de colores, hoy en dia ya no se usan */
+.fondo {
+width: 500px;
+height: 300px;
+    
+/*gradientes son combinacion de colores, el codigo es generado mediante una pagina*/
+background: rgb(131,58,180);
+background: -moz-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(0,255,241,1) 50%, rgba(252,176,69,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(0,255,241,1) 50%, rgba(252,176,69,1) 100%);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(0,255,241,1) 50%, rgba(252,176,69,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#fcb045",GradientType=1);
+}

@@ -1,0 +1,14 @@
+.texto { 
+    /* agrega sombra al texto | posicion horizontal de sombra  arriba y abajo| posicion vertical inzquierd a derecha| tamaño de la sombra | color de la sombra */
+   /* text-shadow: 2px 3px 10px rgb(0, 0, 0);*/
+    color: #fff;
+    text-shadow: 2px 0px 10px rgb(31, 71, 56);
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    background: #FF3F33;
+   /* box-shadow: 2px 2px 20px #867D77;*/
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, .8);
+}

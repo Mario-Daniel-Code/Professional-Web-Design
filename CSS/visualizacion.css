@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+}
+
+/* 
+div, a {
+    background: rgb(165, 159, 159);
+}
+*/
+
+a {
+    background: #0648F2;
+    color: #ffffff;
+    padding: 20px;
+    display: inline-block;
+    /* Los elimina */
+    /*display: none;*/
+
+    /* Los oculta */
+    /*visibility: hidden;*/
+}
+
+/* display inline, block, none | inline-block, flex */
+
+/* 
+table | inline-table | table-row-group | table-header-group | table-footer-group
+table-row | table-column-group | table-column | table-cell | table-caption
+*/
+
+.caja {
+    color: #ffffff;
+    background: #44EA78;
+    margin: 20px 0px;
+    width: 200px;
+    /*Se desborda el contenido de la caja*/
+    height: 200px;
+    /* El cotenido que esta fuera de la caja lo podamos ocultar hidden */
+    /* Auto podemos tener nuestra caja de 200x200 y tener un scroll con todo el contenido */
+    overflow: auto;
+}
+
+.contenedor {
+    width: 600px;
+    background: #C9CECA;
+    margin: 20px  0px; 
+    overflow: hidden;
+}
+
+.izquierda {float: left;}
+.derecha { float: right;}
+
+.contenedor2 .caja {
+width: 150px;
+height: 150px;
+position: relative;
+}
+
+.verde {
+background: #116E27;
+/* indica el orden de un elemento posicionado y sus descendientes. Cuando varios elementos 
+se superponen, los elementos con mayor valor z-index cubren aquellos con menor valor.*/
+z-index: 10;
+}
+
+.rosa {
+    background: #F002F7;
+    left: 50px;
+    bottom: 80px;
+    z-index: 9;
+
+}

@@ -1,0 +1,34 @@
+/*Selector universal todo los elemntos del sitio web 
+* {
+color: cornflowerblue;
+}
+*/
+
+/* Selectores de etiqueta */
+h1, h2{
+    color: blueviolet;
+}
+/* Selectores de desendente, desendiendo por capas, que esten dentro de otros sin afectar a los de afuera */
+div article p{
+    font-size: 20px;
+    color: teal;
+}
+/*Seleccioname todos los enlaces que esten dentro de una etiqueta parrafo */
+div p a {
+    color: saddlebrown;
+}
+
+/*Seleccioname la clase grande => solo para clases */
+.grande {
+    font-size: 40px;
+}
+
+/* Nota: La clase se puede repetir, en caso del id no */
+/*Seleccioname la clase grande => solo para id, casi no se utiliza en CSS */
+#grande {
+    font-size: 30px;
+}
+
+.rojo {
+    color: darkgoldenrod;
+}

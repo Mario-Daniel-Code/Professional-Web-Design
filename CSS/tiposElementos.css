@@ -1,0 +1,44 @@
+/*
+inline
+b, big, i, small, tt
+abbr, acronym, cite, code, dfn, em, kbd, strong, samp, time, var
+a, bdo, br, img, map, object, q, script, span, sub, sup
+button, input, label, select, textarea
+ 
+bloque 
+
+<h1>, <h2>, <h3>, <p>, <ul>, <li>, <div>, <header>, <nav>, <section>, <article>, <footer>, <form>, <table>
+
+*/
+/*   Tipos de elemento
+ bloque => que abarcan el 100% del espacio que tenga disponible 
+ linea => solo abarca el espaciomque necesite
+ */
+body {
+    background: rgb(27, 79, 138);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, p, div {
+    /* bloque
+    no pueden tener otro elemento a su lado
+    */
+    background: #ccc;
+    /*margen interior*/
+    padding: 10px;
+    width: 500px;
+    /* un elemnto al lado del otro*/
+    display: inline-block;
+}
+
+a {
+    /* linea */
+    color: white;
+    background: black;
+    /* no les podemos dar un padding, width, height*/
+    /*para poder colocar el padding, width y height necesitas en display*/
+    display: inline-block;
+    padding: 10px;
+    
+    height: 50px;
+}

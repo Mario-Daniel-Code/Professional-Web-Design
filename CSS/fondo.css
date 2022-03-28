@@ -1,0 +1,38 @@
+body {
+    /*background: #1E6E75;*/
+    /*Esto sucede con imagenes peuqeñas que se repiten varias veces
+    background: url('img/corica.jpeg');*/
+    /* Solucion de repetir */
+    /* background-repeat:no-repeat | repeat-x | repeat-y | repeat;  */
+    background: url('img/moroccan-flower-dark.png');
+    /* 
+     background-size: auto | 100px 100px | 100% 100% | cover | contain; 
+    auto => valor por defecto el ancho y alto de la imagen
+    ancho y alto =>  que nosotroas especifiquemos
+    porcentaje => del ancho y alto toamndo el fondo, tomando en cuenta del contenedor padre
+    cover => ajusta el ancho de la imagen, para que avarque el ancho del contenedor padre
+    contain => Ajusta la imagen para que avarque el ancho y alto en el contenedor padre
+    */
+    background-repeat: repeat; 
+    /*Para definir el tamaño de la imagen*/
+    /*background-size: cover; */
+    /* determina si la posición de la imagen de fondo será fija dentro de la pantalla o se desplazará con su bloque contenedor 
+    fixed => solo se mueve el texto, mas no la imagen
+    */
+    background-attachment: scroll;
+    /* La posicion de nuestro fondo
+    background-position: center;*/
+
+    /*---------------------------------------------------En una sola linea todo-----------------------------------------------------
+    background: url('img/Fondo.png') no-repeat fixed center center;
+    background-size: 500px;*/
+}
+/*
+.fondo {
+    width: 600px;
+    height: 600px;
+    background: url('img/Fondo.png') #000;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+*/

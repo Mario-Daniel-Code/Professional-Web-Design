@@ -1,0 +1,31 @@
+div {
+    background: #0392df;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: inline-block;
+}
+/* Distintos tipos de bordes y bordes redondeados (radius)*/
+
+.caja1 {
+    border: 6px solid #000 ;
+    border-radius: 30px;
+}
+.caja2 {    
+    border:  6px dotted #000;
+    border-radius: 5px  10px 17px  31px;
+}
+.caja3 {
+    border: 6px dashed #000;
+    border-radius: 1px  10px 1px  10px;
+}
+.caja4 {
+    /* Casi no se ocupan estos bordes */
+    border: 6px double rgb(100, 97, 97);
+    border-radius: 100%;
+    /*border: 9px groove rgb(82, 80, 80);*/
+    /*border: 10px ridge rgb(100, 98, 98);*/
+    /*border: 6px inset rgb(75, 73, 73);*/
+    /*border: 6px outset rgb(94, 90, 90);*/
+
+}

@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    background: #ce1e1e;
+    padding: 20px 30px;
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+}
+/* Primera pseudo clase*/
+
+a:hover {
+    background: #824499;  
+    padding: 23px 30px;
+}
+/*El active es cuando lo dejas presionado y cambia de color negro*/
+a:active {
+    background: #000;
+}
+/* Los enlaces que han sido visitados */
+a:visited {
+/*background: #676B3A;*/
+}
+
+div {
+    width: 500px;
+}
+/*Al pasar el mouse sobre el parrafo poner un color diferente*/
+div p:hover {
+    background: #000;
+    color: #fff;  
+}
+
+/* Quiero acceder a la primera linea */
+div p::first-line {
+    background: #3a3a3a;
+    color: #fff;
+    font-size: 20px;
+}
+/* Quiero seleccionar el segundo parrafo que tenga dentro de mi div*/
+div p:nth-child(2) {
+    background: #009ddc;
+    color: #fff;
+    padding: 10px;
+}

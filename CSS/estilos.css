@@ -1,0 +1,8 @@
+/* Estrcutura de una regla de css
+body => selector, el elemnto que le queremos aplicar los efectos
+color => propiedad que le queremos dar al o alos elementos
+blue => valor que le damos a la propiedad 
+*/
+body{
+color: blue;
+}

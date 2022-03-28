@@ -1,0 +1,10 @@
+.caja {
+    width: 200px;
+    height: 200px;
+    /*
+    Decimal rgb(245, 45, 67)
+    Porcentual rgb(200%, 100%, 90%);
+    Hexadecimal: #456765
+    */
+    background: rgba(50%, 44%, 67%);
+}

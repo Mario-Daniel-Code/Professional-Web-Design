@@ -1,0 +1,27 @@
+a {
+    font-size: 20px;
+    /*text-decoration para quitar el subrayado del enlace*/
+    text-decoration: none;
+}
+/*hover cuando pase ael maouse ensima quiero cambiar ep fondo y el color 
+a:hover {
+    background: #208362;
+    color: #fff;
+}
+*/
+/*link poner el estilo de los enlaces ue no han sido visitados */
+a:link {
+    text-decoration: none;
+}
+
+/*enlaces que han sido visitados
+a:visited {
+    color: deeppink;
+}
+*/
+
+/*Es el estado de mi enlace cuando doy un click*/
+a:active {
+text-decoration: underline;
+color: blueviolet;
+}

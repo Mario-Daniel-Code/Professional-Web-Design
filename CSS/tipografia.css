@@ -1,0 +1,31 @@
+/* Coloco la tiporgrafia que yo quiera */
+body {
+    font-family: cursive;
+}
+p {
+    text-align: justify;
+    text-transform: capitalize;
+    /* sirve para el espaciado de las letras */
+    letter-spacing: 6px;
+    /* nos permite cambiar la altura de cada linea*/
+    line-height: 40px;
+}
+
+h1 {
+    /* Coloco la tiporgrafia que yo quiera */
+    font-family: 'Times New Roman', Times, serif;
+    /* Tamaño de la letra */
+    font-size: 30px;
+    /* Texto normal o italic com de lado */
+    font-style: italic;
+    /* Si quiero que mi texto es con negritas */
+    font-weight: bold;
+    /* color de la tipografia */
+    color: #fa0bc6;
+    /* puedo alinear mi texto */
+    text-align: left;
+    /* text-decoration para quitar el subrayado del enlace */
+    text-decoration: none;
+    /* transformar el texto en mayusculas */
+    text-transform: capitalize;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <!--Action es para ponerle el nombre a un archivo ejemplo recibeInfo.php para guardarlos en un abase de datos -->
+    <!--Method por que via vamos a enviar los datos Post envía los datos vía HTTP y get envía los datos mediante los parámetros de URL-->
+
+    <form action="" method="">
+        <!--input de tipo texto-->
+        <!-- placeholder para que se borre automaticamente usamos el placeholder-->
+        <!-- maxlength cuantos caracteres queremos permitir-->
+        <!-- size el tamaño de nuestro input-->
+        <!-- required el usuario afuerzas debe de poner un nombre -->
+        <!-- name para recibir los datos, con el name nombre-->
+        <!-- readonly solo nos permite leer la informacion que esta dentro-->
+        <!-- disabled nos permite deshabilitar el campo-->
+        <label for="nombre">Tu nombre</label>
+        <input type="text" id="nombre" placeholder="Nombre:" maxlength="" name="nombre">
+        <br />
+
+        <!--input de tipo email-->
+        <input type="email" placeholder="Correo:" name="correo">
+        <br />
+
+        <!-- otro de tipo de input cold y rows nos permiten agregar el alto y el ancho-->
+        <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+        <br />
+        <!--Este label me lo relacionas con el id, con el select de opciones 
+        cuando el usuario de click al texto se activara el select
+        -->
+        <label for="pais">Pais:</label>
+
+        <select name="pais" id="pais">
+            <!-- value es lo que vamos a estar enviando y el archivo que recibe los datos es el que estara recibiendo-->
+            <option value="mexico">Mexico</option>
+            <option value="guatemala">Guatemala</option>
+        </select>
+        <br />
+
+        <!--input de tipo radio-->
+        <input type="radio" name="genero" value="hombre" id="hombre"><label for="hombre">Hombre</label>
+        <input type="radio" name="genero" value="mujer" id="mujer"><label for="mujer">Mujer</label>
+        <br />
+        <input type="checkbox" name="terminos" id="terminos"><label for="terminos">Terminos y condiciones</label>
+        <br />
+
+        <!--input de tipo submit-->
+        <!-- submit input que permite enviar los datos -->
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>

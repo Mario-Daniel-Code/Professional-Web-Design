@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+}
+* {
+    /*
+    Todos los estilos de la pagina */
+    /* margen interior */
+    padding: 0;
+    /* margen exterior */
+    margin: 0;
+}
+.caja {
+    /*El navegador arroja margenes por defecto*/
+    background: rgb(12, 59, 59);
+    width: 200px;
+   
+    /* Ya puedo darle margen a cada uno de mis elementos
+    20px a cada uno de los lados
+    primero margin arriba y abajo
+    segundo margin izquierda y derecha
+    */
+    /* arriba | derecha | abajo | izquierda*/
+    margin: 20px;
+    /*Para los 4 lados*/
+    /*padding: 20px 10px 5px 0px;*/
+    padding: 20px;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-bottom: 0px;
+
+    border: 10px solid #000;
+    /*es lo mismo qiue el de arriba
+      margin: 20px 10px 5px 0px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    */
+}
+/*Parrafos de la caja*/
+.caja p {
+    background: #808080;
+}

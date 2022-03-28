@@ -1,0 +1,25 @@
+/* selector de hijos, seleccionar todos los parrafos directamnete de un div usando el > */
+div > p {
+    font-size: 30px;
+}
+/* Selector de atributos */
+input[type]{
+    
+}
+/* Nos permite seleccionar atributo o valor */
+input[type="text"]{
+    
+}
+/* Herencia */
+body {
+font-size: 40px;
+color: indianred;
+}
+
+article {
+    font-size: 15px;
+    color: grey;
+}
+
+
+

@@ -1,0 +1,52 @@
+/*Para reiniciar las margenes y las paddings*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body { 
+    background: #FF7000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Esta es una forma de hacer columnas */
+.cajaPadre {
+    background: #F1E907;
+    width: 700px;
+    /* Define qué se debe mostrar cuando el contenido se desborda de los extremos superior e inferior de un elemento en bloque */
+    /*Encerrar el contenido de una forma correcta*/
+    overflow: hidden;
+}
+ .caja {
+    width: 200px;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    height: 200px;
+    background: #129483;
+    margin: 20px;
+ }
+
+ /* Hay un error que la caja padre no los pueda abarcar a ambos */
+ .uno {
+     float: left;
+ }
+
+ .dos {
+     float: right;
+ }
+
+/* limpaiar el problema que tenemos con el posicionamiento del contenedor padre 
+ .clear {
+     clear: both;
+ }
+ */
+
+ /*Comentario para acordarme que el float sirve para las imagenes colocarle texto alrededor de ella*/
+ .articulo {
+    width: 800px;
+    background: #92b2b9;
+    text-align: justify;
+ }
+
+ .articulo img {
+        float: right;
+ }
