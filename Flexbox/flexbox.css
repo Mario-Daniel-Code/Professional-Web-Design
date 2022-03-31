@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}/* Prooiedades del contenedor padre */
+.contenedor {
+    width: 80%;
+    height: 500px;
+    max-width: 700px;
+    background: #212d40;
+
+    /*Lo que me permite es que mis elementos hijo se hagan 
+    flexibles, como si hubiera aplicado el float left*/
+
+    /* Es una propiedad resumida que indica la capacidad de un elemento 
+    flexible para alterar sus dimensiones y llenar el espacio disponible*/
+    display: flex;
+    /* Especifica cómo colocar los objetos flexibles en el contenedor flexible
+     definiendo el eje principal y la dirección (normal o al revés).*/
+    flex-direction: row;
+    /* Especifica si los elementos "hijos" son obligados a permanecer en una 
+    misma línea o pueden fluir en varias líneas.*/
+    flex-wrap: wrap;
+    /*Va a tener un nancho dinamico
+    flex-wrap: no-wrap;*/
+
+    /* Es una propiedad atajo para las propiedades individuales flex-direction y flex-wrap */
+    /* flex-flow: row wrap;*/
+
+    /* Define cómo el navegador distribuye el espacio entre y alrededor de los items flex, 
+    a lo largo del eje principal de su contenedor.*/
+    justify-content: space-between;
+
+    /*Permite acomodar el cotenido verticalmente*/
+    /* align-items: baseline;*/
+
+    /* Ajusta las líneas dentro de un contenedor flex cuando hay espacio extra en el eje transversal */
+    align-content: space-between;
+
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+    background: #f79256;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-size: 40px;
+    color: #fff;
+}
