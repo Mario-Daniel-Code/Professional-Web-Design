@@ -7,6 +7,7 @@
 body{
     background: #f2f2f2;
     font-family: Arial, Helvetica, sans-serif;
+
 }/* Prooiedades del contenedor padre */
 .contenedor {
     width: 80%;
@@ -40,10 +41,10 @@ body{
     /* align-items: baseline;*/
 
     /* Ajusta las líneas dentro de un contenedor flex cuando hay espacio extra en el eje transversal */
-    align-content: space-between;
-
+    /* align-content: center;*/
 }
 
+/*Propiedades al contenedor hijo*/
 .caja {
     width: 100px;
     height: 100px;
@@ -53,4 +54,43 @@ body{
     padding: 20px;
     font-size: 40px;
     color: #fff;
+    /* Especifica el orden utilizado para disponer los elementos en su contenedor flexible */
+    /*order: 1;*/
+    /*acepata un numero que nos va a servir de proporcion ara hacer creacer al elemento en relacion con los demas */
+    /*flex-grow:1 ;*/
+    /*Define cuanto se puede hacer un elemento mas pequeño en proporcion a los demas*/
+    /*flex-shrink: 1;*/
+    flex: 1 1 auto;
+    /* Indica la alineación de un elemento dentro del bloque que lo contiene*/
+   
 }
+
+.dos {  
+     /* Indica la alineación de un elemento dentro del bloque que lo contiene*/
+    align-self: stretch;
+    height: auto;
+}
+  /*.dos {
+    flex-shrink: 0;*/
+
+    /* Especifíca la base flexible, la cual es el tamaño inicial de un elemento flexible. */
+    /*flex-basis: 200px;*/
+
+    /* Que si el primero crece un px el segundo tiene 2px*/
+    /*flex-grow: 2;*/
+
+    /* Atajo que abarca las 3 */
+    /*flex: 1 1 auto;
+}*/
+
+/*.dos {
+    order: 2;
+}
+
+.uno {
+    order: 3;
+}
+
+.tres {
+    order: 1;
+}*/
