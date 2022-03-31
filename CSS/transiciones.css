@@ -1,0 +1,25 @@
+.caja {
+    width: 200px;
+    height: 200px;
+    background: #B0FFEB;
+    /*A que propiedad le queremos dar esa transicion | cuanto tiempo quieres que sea la trasicion */
+    transition: all 2s ease;
+    /*Retrase la animacion*/
+    /*transition-delay: 2s;*/
+}
+
+/*
+Velocidad de curva
+ease => inicio lento, despues rapido y termina lento
+linear => misma velocidad de incio a fin
+ease-in => inicio lento
+ease-out => final lento
+ease-n-out => inicio lento y final lento
+*/
+
+/*transicion de cambio tañamo como de color */
+.caja:hover {
+background: #00FEBE;
+width: 400px;
+/*transform: rotate(177deg);*/
+}

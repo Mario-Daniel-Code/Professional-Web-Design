@@ -1,0 +1,43 @@
+/* Seleccionar ciertas partes de algunos elementos, Pseudo elementos utilizan ::*/
+/*Acceder a mi primera letra */
+
+ p::first-letter{
+font-size: 40px;
+ /*especifica el peso o grueso de la letra*/
+font-weight: bold;
+}
+
+p::first-line{
+    background: #0ED1B2;
+    line-height: 40px;
+}
+/* Seleccionar todods los elementos */
+*::selection{
+    background: #05358C;
+    color: #fff;
+}
+
+.caja {
+    background: #05358C;
+    height: 150px;
+    width:  150px;
+}
+/*2 pseudo elementos*/
+/*Agregar un elemento despues de nuestra caja*/
+.caja::before{
+    content: 'Contenido antes de la caja';
+    display: block;
+    background: #3a3a3a;
+    color: #fff;
+}
+.caja::after{
+    content: 'Contenido despues de la caja';
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: #000000;
+    color: #fff;
+    position: relative;
+    left: 200px;
+}
+

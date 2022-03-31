@@ -1,0 +1,24 @@
+/*Son usadas para ahcer animaciones, no para posicionarlos en la pagina web*/
+.caja {
+    width: 200px;
+    height: 200px;
+    background: #17BFC3;
+    /*Desplazamiento de forma horizontal de izq a der | Arriba hacia abajo*/
+    /*transform: translatey(300px 0px);*/
+    /*define una transformación que modifica el tamaño de un elemento en el plano 2D ancho y alto*/
+    /*transform:scale(6,6);*/
+    /*gira un elemento alrededor de un punto fijo en un plano 2D sin deformarlo*/
+    /*transform: rotate(20deg);*/
+    /*deforma el elemento en ambas direcciones*/
+    /*transform: skew(20deg, 0deg);*/
+    /*Utilizar todas al mismo tiempo*/
+    transform:translate(100px) scale(1.5, 1.5) rotate(10deg);
+}
+
+/*
+Cosas que podemos hacer con transform
+Transladar elementos
+Escalar elementos
+Rotar elementos
+Sesgar elementos
+*/

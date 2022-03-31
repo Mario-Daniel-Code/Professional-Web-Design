@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    /*Solucion del problema del sidebar*/
+    /*El ancho de los 20 o de cualquier borde o relleno ser añadirá al ancho final desplegado.*/
+    box-sizing: border-box;
+}
+
+body {
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+    width: 1000px;
+    background: #ccc;
+    margin: 20px auto;
+}
+
+header {
+    background: #30323d;
+    color: #fff;
+    padding: 20px;
+}
+
+.main {
+    background: #fff;
+    padding: 20px;
+    /*Este es el problema el padding esta agregando 20px a la iz y der son 740*/
+    /*Pero 740 y 340 da mas de 1000, por eso ahi que restarle 40*/
+    /*width: 660px;*/
+    width: 700px;
+    float: left;
+}
+    /*La parte mas importante */
+aside {
+    background: #e8c547;
+    color: #fff;
+    /*Este es el problema el padding esta agregando 20px a la iz y der son 340*/
+    /*width: 260px;*/
+    width: 300px;
+    padding: 20px;
+    float: left;
+}
+
+footer {
+    /*nos permite posicionar cajas a izquierda y derecha y hacer que
+     el resto de cajas del documento web fluyan normalmente alrededor*/
+    clear: both;
+    background: #4d5061;
+    color: #fff;
+    padding: 20px;
+}

@@ -1,0 +1,42 @@
+/*Son puntos en los cuales va a ver un cambio*/
+@keyframes colores{
+
+    /*Primera forma de hacer animaciones*/
+    /* from{background: #2e294e;}
+    to{background: #815b61;} */
+
+    /*Segunda forma de hacer animaciones con porcentajes*/
+    0% {background: #815b61;}
+    25% {background: #584258; width: 300px;}
+    50% {background: #433653; width: 400px;}
+    75% {background: #393051; width: 300px;}
+    100% {background: #815b61; width: 200px;}
+}
+
+@keyframes movimiento{
+
+     /*Primera forma de hacer animaciones*/
+   /* from{transform: translate(0px);}
+   to{transform: translate(500px);} */
+
+    /*Segunda forma de hacer animaciones con porcentajes*/
+     0% {transform: translate(0px);}
+    50% {transform: translate(500px);}
+    100% {transform: translate(0px);} 
+}
+
+
+.caja {
+    width: 200px;
+    height: 200px;
+    background: #2e294e;
+
+    /* Nombre de animacion*/
+    /*animation-name: movimiento;*/
+    /*Cuanto tiempo va a durar*/
+    /*animation-duration: 6s;*/
+    /*Animacion se repita una vez que acabe */
+    /*animation-iteration-count: infinite;*/
+    /*Hacerla en una sola linea*/
+    animation: movimiento 10s ease infinite;
+}

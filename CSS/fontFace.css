@@ -1,0 +1,17 @@
+/*Para mas fuentes debes de duplicar @font-face*/
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url('Fonts/RobotoSlab-Thin.ttf');
+}
+
+body {
+    font-family: 'RobotoSlab-Thin';
+    /*Otra forma de poner una fuente */
+    font-family: 'Roboto Slab', serif;
+
+}
+
+h1 {
+     /* Especifica el peso o grueso de la letra*/
+ font-weight: normal;
+}
