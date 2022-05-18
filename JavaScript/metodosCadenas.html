@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodos y Propiedades para Cadenas de Texto</title>
+</head>
+<body>
+    <script>
+        var marcaTelefonos = 'Huawei nova i8';
+        var numeroCaracteres = marcaTelefonos.length;
+        // Cuantos caracteres tiene la marcaTelefonos
+        // console.log(marcaTelefonos + ' tiene ' + numeroCaracteres + ' caracteres ');
+
+        // Para extraer una subcadena de texto de una cadena
+        // var marca = marcaTelefonos.substring(8, 14);
+        // console.log(marca);
+
+        // Devuelve los caracteres de una cadena que comienzan en una localización especificada 
+        // y de acuerdo al número de caracteres que se especifiquen.
+        // var marca2 = marcaTelefonos.substr(12, 2);
+        // console.log(marca2);
+
+        // Remplazar el nombre de i8 npor i9 con el metodo replace
+        // var nuevaMarca = marcaTelefonos.replace('i8', 'i9');
+        // console.log(nuevaMarca);
+
+        //Cambiar por mayusculas y minusculas
+        // console.log(marcaTelefonos.toUpperCase());
+        // console.log(marcaTelefonos.toLowerCase());
+
+        //Encontrar la letras empezando del inicio y la otra empezando desde el final
+        // var posicion = marcaTelefonos.indexOf('w');
+        var posicion = marcaTelefonos.lastIndexOf('i');
+        console.log(posicion);
+
+
+
+    </script>
+</body>
+</html>

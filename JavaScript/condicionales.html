@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Condicionales</title>
+  </head>
+  <body>
+    <script>
+      //Es una estruxtura para tomar deciciones
+      //   if (condicion) {
+      //     codigo;
+      //   }
+
+      //--------------- La forma de hacer un if y else
+      // var edad =17;
+      // if(edad >= 18){
+      //     document.write('Eres mayor de edad');
+      //      //un else si esta condicion no se cumple
+      // }else{
+      //     document.write('Eres menor de edad');
+      // }
+
+      var municipio = "san martin";
+
+      //--------------- La forma de hacer un if y else
+      // if (municipio == 'toluca'){
+      //     document.write('Eres de toluca');
+      // }else if(municipio == 'lerma'){
+      //     document.write('Eres de lerma');
+      // }else{
+      //     document.write('No sabemos de donde eres');
+      // }
+
+      //----- Switch
+      switch (municipio) {
+        case "toluca":
+          document.write("Eres de toluca");
+          //Break sirve para parar la ejecucion
+          break;
+        case "san mateo":
+          document.write("Eres de san mateo");
+          //Break sirve para parar la ejecucion
+          break;
+        case "san pedro":
+          document.write("Eres de san pedro");
+          //Break sirve para parar la ejecucion
+          break;
+        //sin no es ninguno se ejecuta el sig mensaje
+        default:
+          document.write("No sabemos de donde eres");
+          break;
+      }
+
+      //if(edad < 18){
+      //document.write('Eres menor de edad');
+      // }
+    </script>
+  </body>
+</html>

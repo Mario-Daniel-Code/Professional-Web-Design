@@ -1,0 +1,1 @@
+alert('Js Alert, desde un archivo externo');

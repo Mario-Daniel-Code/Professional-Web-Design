@@ -1,0 +1,13 @@
+/*Son variables que nos perimiten guardar valores temporalmente*/
+
+$colorPrimario: #18fdea;
+.articulo {
+   
+    .titulo{
+        color: $colorPrimario;
+    }
+    p{
+        color: $colorPrimario ;
+    }
+    
+}

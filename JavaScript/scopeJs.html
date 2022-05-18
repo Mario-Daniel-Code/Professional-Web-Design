@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scope de javascript o ambito de las variables</title>
+  </head>
+  <body>
+    <script>
+      // Scope de javascript => Se refiere al alcanze que pueden tener nuestras variables
+      // De tipo local y global
+
+      //----------Variables locales son las  que han sido creadas dentro de una
+      // funcion o una funcion anidada (funcion dentro de otra)
+
+      //   function carro() {
+      //     var placas = "j5j3k";
+      //     console.log(placas);
+      //   }
+      //   carro();
+
+      //---------Variables local con funciones anidadas
+      //   function saludo(){
+      //       var texto = 'Hola buenos dias';
+      //       function mensaje (){
+      //           //La variable de texto si puede acceder desde afuera
+      //           console.log(texto)
+      //       }
+      //       mensaje();
+      //   }
+      //   saludo();
+
+      //----------Variables globales => Pueden ser accedidas en cualquier parte del codigo
+      //   var texto = '¿Hola?';
+      //   function saludo(){
+      //       console.log(texto);
+      //       texto = 'Hola Mario';
+      //       console.log(texto);
+      //   }
+      //   saludo();
+
+      //-------Importante
+      // La variable dentro de una funcion es local
+      // si la variable no tiene la palabra var automaticamente se convierte el global
+      //   function color() {
+      //     carro = "Audi";
+      //   }
+
+      //   color();
+      //   console.log(carro);
+
+      //-----Como proteger nuestras variables de codigo a terceros funcion autoinvocadas
+      // Nuestras variables que tengamos dentro las va a convertir en variables
+      // locales por lo tanto el codigo que este afuera no puede acceder a ellas
+      (function () {
+        var saludo = "Hola Ma";
+      })();
+      console.log(saludo);
+    </script>
+  </body>
+</html>

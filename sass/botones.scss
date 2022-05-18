@@ -1,0 +1,26 @@
+body {
+  background: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+
+  .boton {
+    display: inline-block;
+    padding: 15px 20px;
+    background: none;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  /*La clase extendida dentro del boton con sus propiedades*/
+  .btn_rojo {
+    @extend .boton;
+    background: #ff2732;
+  }
+  .btn_azul {
+    @extend .boton;
+    background: #04b8ff;
+  }
+  .btn_verde {
+    @extend .boton;
+    background: #137e19;
+  }
+}

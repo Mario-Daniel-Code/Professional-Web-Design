@@ -1,16 +1,16 @@
 /*Comando para convertir de scss a css es desde la carpeta de sass:
 - sass estilos.scss:estilos.css
 */
+
 /*Comando para que lo ejecute en tiempo real
 - sass --watch estilos.scss:estilos.css
 */
 body {
-  background: #030303; }
-
+  background: rgb(3, 3, 3);
+}
 .articulo {
-  background: white;
+  background: rgb(255, 255, 255);
   padding: 20px;
   width: 200px;
-  height: 300px; }
-
-/*# sourceMappingURL=estilos.css.map */
+  height: 300px;
+}

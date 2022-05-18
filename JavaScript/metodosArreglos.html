@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Propiedades y metodos para los arreglos</title>
+  </head>
+  <body>
+    <script>
+      var carros = ["Focus", "Explorer", "Sedan", "GTR"];
+      //-----Metodo length => Conocer cuentos elementos tiene un arreglo
+      //document.write(carros.length);
+      //-----Metodo Join => Juntar nuestro arreglo y juntarlo en una cadena de texto
+      //var cadenaTexto = carros.join(' ** ');
+      //document.write(cadenaTexto);
+      //document.write(carros.join('--'))
+      //-----Metodo pop y push
+      //=> Pop eliminar el ultimo elemnto de una arreglo
+      //=> push nos permite agregar un elemento
+      //carros.pop();
+      //carros.push('350z');
+      //console.log(carros);
+      //-----Metodo shift y unshift
+      //shift => Para eliminar el primer elemneto
+      //unshift => Para agregar el primer elemento
+      //carros.shift();
+      //carros.unshift('Mazda');
+      //console.log(carros);
+      //-----Metodo concat => Unir 2 arreglos
+    //var carros2 = ["R-34", "Eclipse", "Supra"];
+    //var todosLosCarros = carros.concat(carros2);
+    //console.log(todosLosCarros);
+      //-----Metodo sort y reverse => Ordenar alfabeticamente nuestro arreglo
+      //carros.sort();
+      //Sort no funciona para numeros, solo para cadenas de texto
+      carros.reverse();
+      console.log(carros);
+    </script>
+  </body>
+</html>
